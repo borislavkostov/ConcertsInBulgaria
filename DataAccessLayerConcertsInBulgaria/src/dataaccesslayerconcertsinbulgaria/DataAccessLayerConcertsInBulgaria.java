@@ -20,6 +20,16 @@ public class DataAccessLayerConcertsInBulgaria {
         System.out.println(sr.getTotalItems());
         for (Event event : ev.getEvents()) {
             System.out.println(event.getTitle());
+            System.out.println(event.getURL());
+            //System.out.println(event.getDescription());
+            System.out.println(event.getLatitude());
+            System.out.println(event.getLongitude());
+            System.out.println(event.getImage().getUrl());
+            System.out.println(event.getStartTime());
+            System.out.println(event.getStopTime());
+            System.out.println(event.getCityName());
+            System.out.println(event.getVenueName());
+            System.out.println(event.getId());
             System.out.println("****************");
             
         }
